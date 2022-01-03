@@ -1,0 +1,108 @@
+input{
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border:0px;
+  outline: none;
+  border-bottom: 1px solid black;
+  width: 200px;
+outline: none;
+
+}
+::placeholder{
+  color: black;
+}
+.container{
+  margin-left: 30%;
+  width: 40%;
+  margin-top: 4%;
+  display: flex;
+ flex-direction: column;
+  height: max-content;
+  background-color: #fff;
+  gap: 20px;
+  border-radius: 40px;
+  
+  
+}
+.s1{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 30px;
+  background: linear-gradient(to  right,#fff,lightgreen,#fff);
+  margin-top: 3%;
+  height: 40px;
+  width: 100%;
+
+}
+.container h1{
+  align-self: center;
+  color: white;
+}
+.sub{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+justify-content: space-around;
+}
+button{
+  align-self: center;
+  width: 20%;
+  height: 30px;
+  color: black;
+  margin-bottom: 30px;
+  border-radius: 40px;
+  background: linear-gradient(to right,#fff,lightgreen,#fff);
+  border: none;
+  outline: none;
+  font-weight: bolder;
+}
+span{
+  color: red;
+  font-size: 16px;
+  font-weight: 500;
+}
+#email{
+  width: 480px;
+  outline: none;
+}
+select{
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border:0px;
+  border-bottom: 1px solid black;
+  color: black;
+  width: 200px;
+  background: transparent;
+  outline: none;
+}
+.fa{
+  color:black;
+}
+.App{
+  background: linear-gradient(to  right,#fff,lightgreen,#fff)
+}
+h3{
+ 
+  font-size: 15px;
+  margin-top: -10px;
+}
+.age1{
+  width: 250px;
+  
+  margin-top: -10px;
+}
+.age1 input{
+  width: 20px;
+}
+.gh{ margin-left: 10px;
+  margin-top: -10px;
+}
+.age2 input{
+  width: 20px;
+  border:1px solid black;
+  outline: black;
+}
